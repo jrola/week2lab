@@ -1,5 +1,5 @@
- h1{
-  	color: blue;
+h1{
+		color: blue;
 	}
     
 		form{
@@ -24,20 +24,26 @@
 			display: inline-block;
 			border: 1px solid #000000;
 			height: 25px;
+			border-radius: 5px;
 		}
     
 		textarea{
 			border: 1px solid black;
+			border-radius: 5px;
 		}
 		
 		input[type=button] {
 		border: 1px solid black;
 		border-radius : 15px;
-		color: #000000;
+		color: #FFFFFF;
+		background-color: #0066FF;
+		width: 100px;
+		font-weight: bold;
 		}
 	
 		input[type=button]:hover {
-		background-color: #808080;
+		background-color: #0000FF;
+		color: #FF0000;
 		}	
 		
 		.error {
