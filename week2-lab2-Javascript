@@ -1,4 +1,5 @@
-   /*
+
+	/*
 	Jack Rola
 	Week 2
 	lab2
@@ -73,19 +74,20 @@ var error_commnet = document.getElementById('error_commnet');
 			var main_form = document.getElementById('main_form');
 			main_form.style.display = "none";
 			var results = "";
-			results += "First Name: " + fname.value;
+			results += "First Name: " + fname.value + "<br />";
 			var confirmation_result = document.getElementById('confirmation_result');
 			confirmation_result.innerHTML =  results;
-			results += "Last Name: " + lname.value;
+			results += "Last Name: " + lname.value + "<br />";
 			var confirmation_result = document.getElementById('confirmation_result');
 			confirmation_result.innerHTML =  results;
-			results += "Email: " + email.value;
+			results += "Email: " + email.value + "<br />";
 			var confirmation_result = document.getElementById('confirmation_result');
 			confirmation_result.innerHTML =  results;
-			results += "Commnet: " + comment.value;
+			results += "Commnet: " + comment.value + "<br />";
 			var confirmation_result = document.getElementById('confirmation_result');
 			confirmation_result.innerHTML =  results;
 		
 		}
 		
 	}
+		
